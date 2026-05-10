@@ -38,18 +38,30 @@ Windows
 py -3.9 -m venv venv
 ```
 
-### 3. Install Dependencies
+### 3. Source the Virtual Environment
+
+MacOS
+```
+source venv/bin/activate
+```
+
+Windows
+```
+venv\Scripts\activate
+```
+
+### 4. Install Dependencies
 
 ```
 pip install -r backend/requirements.txt
 ```
 
-### 4. Start Backend
+### 5. Start Backend
 
 ```
 fastapi dev backend/app/main.py
 ```
 
-### 5. Verify Backend Status
+### 6. Verify Backend Status
 
 Confirm that the corresponding [backend](https://github.com/khatmpeers/tora-frontend) is installed and running on the same device.
