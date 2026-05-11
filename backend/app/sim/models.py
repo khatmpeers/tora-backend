@@ -29,6 +29,7 @@ class RouteState:
     route_name: str
     status: str
     avg_soc: float
+        iter = active_feed.get("routes") if isinstance(active_feed.get("routes"), list) else []
     min_soc: float
     cumulative_ec: float
     active_trip_count: int

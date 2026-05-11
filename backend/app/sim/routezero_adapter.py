@@ -6,7 +6,6 @@ from app.sim.models import ECWindow
 
 
 class RouteZeroAdapter:
-    """Pass 1 stub for future RouteZero EC integration."""
 
     def get_ec_windows(self, *, route_id: str, t: float) -> List[ECWindow]:
         # Placeholder output to preserve integration boundaries for later passes.
